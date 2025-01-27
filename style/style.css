@@ -1,0 +1,126 @@
+.container{
+    padding:6rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+
+/* .desserts{
+    
+} */
+.title{
+    padding-bottom: 1.5rem;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  gap: 2.5rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+position: relative;
+}
+img{
+    width:25rem;
+    border-radius: .5rem ;
+    margin-bottom: 3.5rem;
+ 
+}
+.btn{
+    position: absolute;
+    left: 50%;
+    top:70.5%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  padding: 1rem 0 ;
+width: 16rem;
+border-radius: 3rem;
+border: solid .1rem var(--primary-color-red);
+color: var(--primary-color-rose-900);
+background-color: #fff;
+font-weight: 700;
+cursor: pointer;
+transition: .2s;
+}
+.add-card{
+
+display: flex;
+align-items: center;
+
+gap: 1rem;
+    
+}
+.mush{
+  
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.plus,.minus{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#mush-number{
+    width: 1.5rem;
+    height: 1.5rem;
+    color: #fff;
+}
+
+.btn:hover{
+color: var(--primary-color-red);
+border: solid .1rem var(--primary-color-red);
+}
+.food-name{
+
+    color: var(--primary-color-rose-500);
+}
+.with{
+    font-weight: 700;
+    color: var(--primary-color-rose-900);
+}
+.price{
+    font-weight: 600;
+    color: var(--primary-color-red);
+}
+
+
+/* payment */
+
+.your-cart{
+    background-color: #ffff;
+ width: 35rem;
+ padding: 2rem;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+ border-radius: .8rem;
+ box-shadow: 0 0 .5rem .2rem rgba(204, 204, 204, 0.123);
+}
+.your-cart .title-cart{
+    font-weight: 600;
+    color: var(--primary-color-red);
+    align-self: flex-start;
+    padding-bottom: 3rem;
+}
+.your-cart img{
+    width: 10rem;
+  margin-bottom: 1rem;
+}
+.order-p{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--primary-color-rose-500);
+    padding-bottom: 1.5rem;
+}
