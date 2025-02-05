@@ -40,7 +40,7 @@ img{
     align-items: center;
     justify-content: center;
 
-  padding: 1rem 0 ;
+
 width: 16rem;
 border-radius: 3rem;
 border: solid .1rem var(--primary-color-red);
@@ -49,21 +49,28 @@ background-color: #fff;
 font-weight: 700;
 cursor: pointer;
 transition: .2s;
+overflow: hidden;
 }
 .add-card{
-
+    padding: 1rem 0;
+   height: a;
+    width: 100%;
+    background-color: #fff;
 display: flex;
 align-items: center;
-
+justify-content: center;
 gap: 1rem;
     
 }
+/* maush */
 .mush{
-  
-    width: 90%;
+  padding: 1rem 1.3rem;
+  width: 100%;
+   background-color: var(--primary-color-red);
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 
 }
 .plus,.minus{
@@ -76,10 +83,9 @@ justify-content: center;
     height: 1.5rem;
     color: #fff;
 }
-
-.btn:hover{
+/* //// */
+.add-card:hover{
 color: var(--primary-color-red);
-border: solid .1rem var(--primary-color-red);
 }
 .food-name{
 

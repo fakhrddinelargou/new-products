@@ -16,7 +16,7 @@ function fillUpProducts(title , description , price , imgs){
             <div class="card">
 <img src="${imgs}" alt="">
         <button class="btn">
-  <div class="add-card">
+  <div class="add-card hidden">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="21"
@@ -54,7 +54,7 @@ function fillUpProducts(title , description , price , imgs){
         />
       </svg>
     </span>
-    <span id="mush-number"></span>
+    <span class="mush-number"></span>
     <span class="minus" onclick="minus()">
       <svg
         xmlns="http://www.w3.org/2000/svg"
